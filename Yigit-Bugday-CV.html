@@ -57,7 +57,7 @@
   <section>
     <h2>Core Skills</h2>
     <div class="skills">
-      <div><b>AI / LLM</b>LLM, Prompt Engineering, RAG, AI Agents, Automation Workflows, NLP, Machine Learning</div>
+      <div><b>AI / LLM</b>LLM, Prompt Engineering, RAG, Hybrid Search, AI Agents, Tool Calling, LLM Planners, Agent Memory, Evaluation (recall@k, MRR), NLP</div>
       <div><b>Backend / Python</b>Python, FastAPI, Flask, REST APIs, API Design, Back-End Web Development</div>
       <div><b>Tools / Infra</b>Docker, Linux, Git &amp; GitHub, n8n, Cybersecurity, SaaS Development</div>
     </div>
@@ -90,15 +90,15 @@
     <h2>Selected Projects</h2>
     <div class="project">
       <h3><a href="https://github.com/busnis887-design/raglite">raglite — RAG Pipeline</a></h3>
-      <p class="desc">Dependency-light Python toolkit for the full ingest → embed → retrieve → generate loop. Sentence-aware chunking, pluggable embeddings (offline hashing or OpenAI), cosine vector store, grounded answers with source citations, CLI and 10 passing unit tests.</p>
+      <p class="desc">v0.2.0 — Dependency-light RAG toolkit: chunking, pluggable embeddings, cosine + BM25-style hybrid retrieval, JSON index persistence, grounded answers with citations, recall@k/MRR evaluation CLI. 15 unit tests, CI on Python 3.10–3.12.</p>
     </div>
     <div class="project">
       <h3><a href="https://github.com/busnis887-design/agentkit">agentkit — Tool-Calling Agent Runtime</a></h3>
-      <p class="desc">Auditable Python agent runtime: tool registry with OpenAI-compatible function schemas, safe AST-based calculator, deterministic planner, step-by-step traces, safety limits, CLI demo and 10 passing unit tests.</p>
+      <p class="desc">v0.2.0 — Auditable agent runtime: OpenAI-compatible tool schemas, rule-based and LLM-backed planners, safe AST calculator, bounded conversation memory, step traces and safety limits. 16 unit tests, CI on Python 3.10–3.12.</p>
     </div>
     <div class="project">
       <h3><a href="https://github.com/busnis887-design/ai-service-template">AI Service Template — FastAPI</a></h3>
-      <p class="desc">Production-oriented inference API: API-key auth, per-key rate limiting, request IDs, structured logs, health checks, grounded <code>/v1/ask</code> endpoint, Dockerfile and 8 passing unit tests.</p>
+      <p class="desc">v0.2.0 — Production-minded inference API: API-key auth, rate limiting, request IDs, structured logs, CORS, <code>/metrics</code>, <code>/v1/models</code>, grounded <code>/v1/ask</code>, Dockerfile. 13 unit tests, CI on Python 3.10–3.12.</p>
     </div>
   </section>
 
