@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yiğit Buğday — AI Engineer CV</title>
+<style>
+  :root { --ink:#172033; --muted:#5c6779; --accent:#2563eb; --line:#dde3eb; --bg:#f6f8fb; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .page { max-width:960px; margin:32px auto; background:#fff; padding:56px 64px; box-shadow:0 10px 40px rgba(20,30,60,.08); border-radius:14px; }
+  header { border-bottom:3px solid var(--accent); padding-bottom:22px; margin-bottom:26px; }
+  h1 { font-size:34px; margin:0 0 6px; letter-spacing:-.4px; }
+  .role { font-size:17px; color:var(--accent); font-weight:650; margin:0 0 10px; }
+  .contact { font-size:13.5px; color:var(--muted); }
+  .contact a { color:var(--accent); text-decoration:none; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:1.6px; color:var(--accent); border-bottom:1px solid var(--line); padding-bottom:7px; margin:30px 0 16px; }
+  h3 { font-size:17px; margin:0 0 2px; }
+  h4 { font-size:14px; margin:16px 0 6px; color:var(--ink); }
+  p { margin:0 0 10px; }
+  .meta { color:var(--muted); font-size:13.5px; margin-bottom:12px; }
+  ul { margin:6px 0 0; padding-left:20px; }
+  li { margin-bottom:6px; }
+  .skills { display:grid; grid-template-columns:repeat(3,1fr); gap:10px 26px; }
+  .skills b { display:block; font-size:12px; text-transform:uppercase; letter-spacing:.8px; color:var(--muted); margin-bottom:4px; }
+  .project { margin-bottom:18px; }
+  .project a { color:var(--accent); text-decoration:none; }
+  .project .desc { color:#3c4658; }
+  footer { margin-top:36px; padding-top:16px; border-top:1px solid var(--line); font-size:12.5px; color:var(--muted); }
+  @media print {
+    body { background:#fff; font-size:11pt; }
+    .page { margin:0; padding:0; max-width:none; box-shadow:none; border-radius:0; }
+    h2 { margin-top:18px; }
+    a { color:var(--ink) !important; }
+    .project, li { break-inside:avoid; }
+  }
+  @media (max-width:640px) { .page{padding:28px 22px;margin:0;} .skills{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Yiğit Buğday</h1>
+    <p class="role">AI Engineer | LLM Applications, RAG &amp; Agentic Workflows | Python Backend Developer</p>
+    <p class="contact">Greater Istanbul, Türkiye &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/yi%C4%9Fit-bu%C4%9Fday-20508a394/">linkedin.com/in/yiğit-buğday-20508a394</a> &nbsp;·&nbsp;
+      <a href="https://github.com/busnis887-design">github.com/busnis887-design</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>AI engineer building systems that work beyond the demo. Focus on the intersection of LLM engineering and backend development — retrieval-augmented generation (RAG), tool-calling agents and multi-step automation, served through clean Python APIs. From prompt design and context engineering to evaluation, latency and cost control, I care about the details that turn a prototype into something people can rely on. Open to freelance, remote and project-based work where AI is treated as engineering, not magic.</p>
+  </section>
+
+  <section>
+    <h2>Core Skills</h2>
+    <div class="skills">
+      <div><b>AI / LLM</b>LLM, Prompt Engineering, RAG, AI Agents, Automation Workflows, NLP, Machine Learning</div>
+      <div><b>Backend / Python</b>Python, FastAPI, Flask, REST APIs, API Design, Back-End Web Development</div>
+      <div><b>Tools / Infra</b>Docker, Linux, Git &amp; GitHub, n8n, Cybersecurity, SaaS Development</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <h3>Freelance / Independent Projects — Self-employed</h3>
+    <p class="meta">Jan 2023 – Present · Remote · Greater Istanbul, Türkiye</p>
+
+    <h4>Independent Software &amp; AI Developer</h4>
+    <ul>
+      <li>Build AI-powered automation systems and intelligent workflows with Python, LLMs and tools such as n8n, connecting models to real-world processes.</li>
+      <li>Design and ship backend services and REST APIs with FastAPI and Flask, focusing on reliability, latency and clean integration.</li>
+      <li>Apply cybersecurity fundamentals across architecture and API design to keep systems secure and resilient.</li>
+      <li>Turn prototypes into working, maintainable products using modern open-source technologies.</li>
+      <li>Continuously explore emerging AI engineering patterns — retrieval-augmented generation, agents and evaluation.</li>
+    </ul>
+
+    <h4>AI &amp; Backend Developer</h4>
+    <ul>
+      <li>Develop Python-based AI applications and backend services, exposing LLM and ML capabilities through REST APIs and FastAPI.</li>
+      <li>Build automation workflows that connect AI models with external tools and data sources.</li>
+      <li>Integrate AI features into products with attention to maintainability, performance and security.</li>
+      <li>Deliver working software from idea to deployment across independent, project-based work.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/busnis887-design/raglite">raglite — RAG Pipeline</a></h3>
+      <p class="desc">Dependency-light Python toolkit for the full ingest → embed → retrieve → generate loop. Sentence-aware chunking, pluggable embeddings (offline hashing or OpenAI), cosine vector store, grounded answers with source citations, CLI and 10 passing unit tests.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/busnis887-design/agentkit">agentkit — Tool-Calling Agent Runtime</a></h3>
+      <p class="desc">Auditable Python agent runtime: tool registry with OpenAI-compatible function schemas, safe AST-based calculator, deterministic planner, step-by-step traces, safety limits, CLI demo and 10 passing unit tests.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/busnis887-design/ai-service-template">AI Service Template — FastAPI</a></h3>
+      <p class="desc">Production-oriented inference API: API-key auth, per-key rate limiting, request IDs, structured logs, health checks, grounded <code>/v1/ask</code> endpoint, Dockerfile and 8 passing unit tests.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <h3>Independent Learning / Self-Education</h3>
+    <p class="meta">Continuous self-directed study in LLM engineering, agent architectures, embeddings/vector databases and backend development.</p>
+  </section>
+
+  <section>
+    <h2>Additional</h2>
+    <p><b>Services:</b> AI automation, backend/API development, web &amp; mobile applications, SaaS development, database design, software testing, business analytics.</p>
+    <p><b>Languages:</b> English, Turkish &nbsp;·&nbsp; <b>Availability:</b> Freelance, remote, project-based</p>
+  </section>
+
+  <footer>Generated from verified LinkedIn profile data and published GitHub repositories · November 2026</footer>
+</div>
+</body>
+</html>
